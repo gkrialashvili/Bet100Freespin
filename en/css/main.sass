@@ -1,12 +1,31 @@
 $crocoFontNormal: Proxima nova
 $corocSans: "Crocosans caps", sans-serif
-$croco: Crocosanscaps
-
+$druk: "Druk"
+$neueCroco: "Ubuntu mkh"
+$Ttsupermolotneue: "Ttsupermolotneue"
+$neueCrocoCaps: "Ubuntu"
+$neueCrocoCapsMedium: "Ubuntu Medium"
 .div-block-19221
     border-radius: 25px
     width: 100%
     font-style: normal
-    padding: 15px 40px
+    margin-top: 5px
+    padding: 0px 40px
+
+table
+    margin-left: 5px
+
+td, th
+    padding: 0
+    border: 1px solid
+    min-width: 101px
+
+.daz-mob
+    display: none
+    position: absolute
+
+.mob-del
+    display: none
 
 .textBlock
     font-size: 20px
@@ -17,7 +36,7 @@ $croco: Crocosanscaps
     opacity: 1 !important
 
 .body-52
-    background-color: #252627
+    background-color: #127d41
     animation-delay: 2s
     animation: lightOff infinite linear
     background-image: url("../images/wheel/bg-off.png")
@@ -25,29 +44,137 @@ $croco: Crocosanscaps
 
 .content-container
     max-width: 844px
-    width: 95%
+    width: 100%
     min-height: 259px
     border-radius: 10px
-    border: 1px solid #00aeef
+    border: 2px solid #00aeef
     display: flex
     flex-direction: column
     justify-content: space-between
     align-items: center
     background-color: rgba(19, 22, 34, 0.9)
+    margin-bottom: 90px
+    box-shadow: 13px 26px 45px 6px black
+    position: relative
+
+.content-steps-container
+    width: 100%
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    min-height: 59px
+
+.three-rectangles
+    height: 60px
+
+.three-rectangles
+    height: 53px
+    max-width: 320px
+    width: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+
+    background-repeat: no-repeat
+    background-size: 100% 53px
+
+.blue-bg
+    background-image: url(../images/wheel/blue.png)
+
+.purp
+    background-image: url(../images/wheel/puro.png)
+
+.green-bg
+    background-image: url(../images/wheel/green.png)
+
+.three-rectangles span
+    font-family: Crocosanscaps !important
+    text-align: center
+    font-size: 16px
+
+.dazzling-conteiner
+    width: 100%
+    min-height: 93px
+    border-radius: 20px
+    background-image: url(../images/wheel/dazzling.png)
+    background-repeat: no-repeat
+    margin-top: -30px
     margin-bottom: 40px
+    display: flex
+    justify-content: flex-end
+    background-size: 100% 93px
+    cursor: pointer
 
 .content-table-container
     width: 100%
+
+.dazzling-text
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    margin-right: 25px
+    font-family: $neueCrocoCapsMedium
+
+.dazzling-text div
+    font-size: 15px
+    margin: 8px 0
+
+.dazzling-text div:last-child
+    font-size: 37px
+    font-family: $corocSans
+    text-shadow: 2px 2px 10px #48c368
 
 .content-footer
     width: 100%
     border-top: 1px solid #00aeef
     min-height: 51px
-    background-color: rgba(16, 26, 56, 0.6)
+    background-color: #14996d
     display: flex
     justify-content: space-between
-    border-bottom-left-radius: 10px
-    border-bottom-right-radius: 10px
+    border-bottom-left-radius: 6px
+    border-bottom-right-radius: 6px
+
+.content-header-uno
+    max-width: 662px
+    width: 100%
+    min-height: 42px
+    border: 1px solid aqua
+    border-top-right-radius: 10px
+    border-top-left-radius: 10px
+    position: absolute
+    top: -44px
+    z-index: -1
+    background-color: rgba(16, 31, 36, 0.6)
+    display: flex
+    justify-content: center
+    align-items: center
+
+.content-header-uno div
+    font-size: 18px
+    font-weight: bold
+
+.content-header-dos div
+    font-size: 18px
+    font-weight: bold
+
+.content-header-dos
+    max-width: 162px
+    width: 100%
+    min-height: 42px
+    border: 1px solid aqua
+    border-top-right-radius: 10px
+    border-top-left-radius: 10px
+    position: absolute
+    top: -44px
+    left: 30px
+    z-index: -1
+    background-color: rgba(16, 31, 36, 0.6)
+    display: flex
+    justify-content: center
+    align-items: center
 
 .footer-lr
     display: flex
@@ -65,16 +192,49 @@ $croco: Crocosanscaps
     margin-top: 15px
 
 .header div
-    max-width: 198px
+    max-width: 250px
     width: 100%
     min-height: 32px
     border-radius: 10px
-    border: 1px solid #00aeef
+    border: 1px solid #8b3aab
     display: flex
     justify-content: center
     align-items: center
-    margin: 0 2px
+    margin: 0 10px
     background-color: rgba(16, 26, 56, 0.6)
+    font-family: $neueCrocoCaps
+    font-weight: 500
+
+.header div:first-child
+    border: 1px solid #00aeef
+
+.header div:last-child
+    border: 1px solid #189541
+
+.content-bb
+    margin-top: 78px
+
+.header-uno
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 45px
+
+.header-uno div
+    max-width: 159px
+    width: 100%
+    min-height: 32px
+    border-radius: 10px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0 50px
+    font-size: 25px
+    font-family: $Ttsupermolotneue
+
+.header-uno div:last-child
+    max-width: 400px
 
 .data-cont
     width: 100%
@@ -84,7 +244,7 @@ $croco: Crocosanscaps
     margin-top: 15px
 
 .data-cont div
-    max-width: 198px
+    max-width: 250px
     width: 100%
     min-height: 32px
     border-radius: 10px
@@ -92,6 +252,40 @@ $croco: Crocosanscaps
     justify-content: center
     align-items: center
     margin: 0 2px
+    font-family: $neueCrocoCaps
+    font-weight: 500
+    font-size: 15px
+
+.data-cont-un
+    width: 100%
+    display: flex
+    justify-content: space-between
+    align-items: center
+    margin-top: 2px
+    min-height: 43px
+    background-color: #1a2c4c
+
+.data-cont-un:last-child
+    border-bottom-left-radius: 10px
+    border-bottom-right-radius: 10px
+
+.data-cont-un div
+    max-width: 159px
+    width: 100%
+    border-radius: 10px
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0 50px
+    font-size: 18px
+    font-family: $neueCrocoCaps
+
+.data-cont-un span
+    margin: 0 5px
+    color: #35ca58
+
+.data-cont-un div:last-child
+    max-width: 400px
 
 .rules-containet-bb
     margin-top: 0
@@ -181,10 +375,10 @@ $croco: Crocosanscaps
     background-color: transparent
 
 .accordion_item_trigger-t
-    background-color: #2daa4a
+    background-color: #1cb555
 
 .accordion_item_trigger-t:hover
-    background-color: rgba(45, 170, 74, 0.8)
+    background-color: rgba(85, 181, 85, 0.8)
 
 .accordion_item_content-t
     border-radius: 4px
@@ -196,10 +390,9 @@ $croco: Crocosanscaps
     background-color: transparent
 
 .text-block-515
-    font-family: $corocSans
+    font-family: $Ttsupermolotneue !important
     font-weight: bold
     font-style: normal
-    font-family: "Crocosanscaps", sans-serif
     font-size: 30px
 
 .text-block-515 span
@@ -351,8 +544,74 @@ ol li
     .carousel-cont
         max-width: 517px
 
+    .content-bb
+        margin-top: 0
+
+    .bt-egt
+        max-width: 291px
+        width: 100%
+        min-height: 108px
+        margin-bottom: 7px
+        margin-top: 36px
+
+    .section-bb
+        padding-top: 250px
+
+    .daz-mob
+        display: block
+        left: 50%
+        transform: translate(-50%, -50%)
+        max-width: 200px
+
+    .content-steps-container
+        flex-direction: column
+
+    .dazzling-conteiner
+        min-height: 140px
+        background-size: 100% 227px
+        background-image: url()
+        background-color: #111d21
+        position: relative
+        margin-top: 35px
+
+    .dazzling-text
+        width: 100%
+        margin-right: 0
+        justify-content: flex-end
+        margin-bottom: 10px
+
+    .three-rectangles
+        margin: 5px 0
+
+    .blue-bg
+        background-image: url(../images/wheel/blue-mob.png)
+
+    .purp
+        background-image: url(../images/wheel/puro-mob.png)
+
+    .green-bg
+        background-image: url(../images/wheel/green-mob.png)
+
+    .header-uno div
+        margin: 0
+
+    .content-header-uno
+        max-width: 662px
+        width: 80%
+        min-height: 65px
+        top: -64px
+
+    .content-container
+        margin-top: 50px !important
+
+    .data-cont-un div
+        margin: 0
+
     .magaliti-div
         min-height: 280px
+
+    .content-header-uno div
+        font-size: 15px
 
     .magaliti-container
         min-height: 270px
@@ -370,15 +629,18 @@ ol li
         display: block
 
     .body-52
-        background-color: #252627
+        background-color: #127d41
         background-image: url(../images/wheel/bg-mob.png)
-        background-position: 50% -175px
+        background-position: 50% 0px
         background-size: 898px
 
 @media screen and (max-width: 767px)
 
     .offer-mob
         display: inline-block
+
+    .data-cont div
+        font-size: 12px
 
     .offer-web
         display: none
@@ -515,6 +777,12 @@ ol li
     .register-container
         flex-direction: column
 
+    .section-bb
+        padding-top: 250px
+
+    .textBlock
+        font-size: 15px
+
     .button-container
         justify-content: center
         width: 90%
@@ -544,6 +812,19 @@ ol li
         .data-cont
             font-size: 10px
 
+        .div-block-19221
+            display: none
+
+        .mob-del
+            display: block
+
+        .content-header-dos
+            left: 50%
+            transform: translate(-50%, 0%)
+
+        .footer-lr:last-child
+            flex-direction: column
+
         .text-span-161
             font-size: 40px
 
@@ -552,6 +833,9 @@ ol li
 
         .carousel-cont
             max-width: 347px
+
+        .textBlock
+            font-size: 12px
 
         .wheel-header
             width: 84%
@@ -571,9 +855,28 @@ ol li
         .div-block-19226
             font-size: 12px
 
+        .data-cont-un div
+            font-size: 15px
+
     @media screen and (max-width:500px)
         .div-block-19221
             width: 95%
+
+        .body-52
+            background-size: 820px
+
+        .bt-egt
+            max-width: 291px
+            width: 100%
+            min-height: 108px
+            margin-bottom: 7px
+            margin-top: 3px
+
+        .section-bb
+            padding-top: 220px
+
+        .data-cont-un div
+            font-size: 13px
 
         .date-time
             font-size: 20px
@@ -636,8 +939,11 @@ ol li
                 margin-left: 15%
                 min-width: 108px
 
+            .footer-lr
+                margin: 0 13px
+
             .textBlock
-                font-size: 2vw
+                font-size: 11px
 
             .text-block-515
                 font-size: 4vw
@@ -646,7 +952,7 @@ ol li
                 font-size: 10px
 
             .footer-lr
-                font-size: 7px
+                font-size: 11px
 
             .text-block-523
                 font-size: 12px
@@ -654,6 +960,18 @@ ol li
 
             .div-block-19226
                 max-width: 95%
+
+            .data-cont-un div
+                max-width: 100px
+
+            .header-uno div
+                max-width: 100px
+
+            .data-cont-un div:last-child
+                max-width: 250px
+
+            .header-uno div:last-child
+                max-width: 400px
 
             .flower
                 position: absolute
@@ -675,6 +993,9 @@ ol li
 
             .close_pop
                 top: 22%
+
+            .data-cont-un div
+                font-size: 10px
 
             .prize_txt
                 font-size: 10px
@@ -716,6 +1037,9 @@ ol li
         @media screen and ( max-width: 338px )
             .text-span-161
                 font-size: 25px
+
+            .data-cont div
+                font-size: 10px
 
 @keyframes pulsing
     to

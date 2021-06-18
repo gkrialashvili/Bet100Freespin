@@ -6,6 +6,25 @@
   padding: 0px 40px;
 }
 
+table {
+  margin-left: 5px;
+}
+
+td, th {
+  padding: 0;
+  border: 1px solid;
+  min-width: 101px;
+}
+
+.daz-mob {
+  display: none;
+  position: absolute;
+}
+
+.mob-del {
+  display: none;
+}
+
 .textBlock {
   font-size: 20px;
 }
@@ -542,11 +561,11 @@
 }
 
 .accordion_item_trigger-t {
-  background-color: #2daa4a;
+  background-color: #1cb555;
 }
 
 .accordion_item_trigger-t:hover {
-  background-color: rgba(45, 170, 74, 0.8);
+  background-color: rgba(85, 181, 85, 0.8);
 }
 
 .accordion_item_content-t {
@@ -785,11 +804,47 @@ ol li {
   .carousel-cont {
     max-width: 517px;
   }
+  .content-bb {
+    margin-top: 0;
+  }
+  .bt-egt {
+    max-width: 291px;
+    width: 100%;
+    min-height: 108px;
+    margin-bottom: 7px;
+    margin-top: 36px;
+  }
+  .section-bb {
+    padding-top: 250px;
+  }
+  .daz-mob {
+    display: block;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    max-width: 200px;
+  }
   .content-steps-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .dazzling-conteiner {
+    min-height: 140px;
+    background-size: 100% 227px;
+    background-image: url();
+    background-color: #111d21;
+    position: relative;
+    margin-top: 35px;
+  }
+  .dazzling-text {
+    width: 100%;
+    margin-right: 0;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 10px;
   }
   .three-rectangles {
     margin: 5px 0;
@@ -850,6 +905,9 @@ ol li {
 @media screen and (max-width: 767px) {
   .offer-mob {
     display: inline-block;
+  }
+  .data-cont div {
+    font-size: 12px;
   }
   .offer-web {
     display: none;
@@ -1075,6 +1133,23 @@ ol li {
   .data-cont {
     font-size: 10px;
   }
+  .div-block-19221 {
+    display: none;
+  }
+  .mob-del {
+    display: block;
+  }
+  .content-header-dos {
+    left: 50%;
+    -webkit-transform: translate(-50%, 0%);
+            transform: translate(-50%, 0%);
+  }
+  .footer-lr:last-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .text-span-161 {
     font-size: 40px;
   }
@@ -1083,6 +1158,9 @@ ol li {
   }
   .carousel-cont {
     max-width: 347px;
+  }
+  .textBlock {
+    font-size: 12px;
   }
   .wheel-header {
     width: 84%;
@@ -1110,6 +1188,19 @@ ol li {
 @media screen and (max-width: 800px) and (max-width: 500px) {
   .div-block-19221 {
     width: 95%;
+  }
+  .body-52 {
+    background-size: 820px;
+  }
+  .bt-egt {
+    max-width: 291px;
+    width: 100%;
+    min-height: 108px;
+    margin-bottom: 7px;
+    margin-top: 3px;
+  }
+  .section-bb {
+    padding-top: 220px;
   }
   .data-cont-un div {
     font-size: 13px;
@@ -1177,8 +1268,11 @@ ol li {
     margin-left: 15%;
     min-width: 108px;
   }
+  .footer-lr {
+    margin: 0 13px;
+  }
   .textBlock {
-    font-size: 2vw;
+    font-size: 11px;
   }
   .text-block-515 {
     font-size: 4vw;
@@ -1187,7 +1281,7 @@ ol li {
     font-size: 10px;
   }
   .footer-lr {
-    font-size: 7px;
+    font-size: 11px;
   }
   .text-block-523 {
     font-size: 12px;
@@ -1278,6 +1372,9 @@ ol li {
 @media screen and (max-width: 800px) and (max-width: 500px) and (max-width: 338px) {
   .text-span-161 {
     font-size: 25px;
+  }
+  .data-cont div {
+    font-size: 10px;
   }
 }
 
