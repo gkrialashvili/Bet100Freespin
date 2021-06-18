@@ -3,7 +3,7 @@
   width: 100%;
   font-style: normal;
   margin-top: 5px;
-  padding: 0px 40px;
+  padding: 0px 5px;
 }
 
 table {
@@ -300,6 +300,14 @@ td, th {
   background-color: rgba(16, 26, 56, 0.6);
   font-family: "Ubuntu";
   font-weight: 500;
+}
+
+.div-block-19221 {
+  width: 100% !important;
+}
+
+.content-bb {
+  width: 100% !important;
 }
 
 .header div:first-child {
@@ -1133,7 +1141,7 @@ ol li {
   .data-cont {
     font-size: 10px;
   }
-  .div-block-19221 {
+  .block {
     display: none;
   }
   .mob-del {
