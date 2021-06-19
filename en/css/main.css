@@ -1386,6 +1386,12 @@ ol li {
   }
 }
 
+@media screen and (max-width: 800px) and (max-width: 500px) and (max-width: 400px) {
+  body {
+    background-size: 720px;
+  }
+}
+
 @-webkit-keyframes pulsing {
   to {
     -webkit-box-shadow: 0 0 0 10px rgba(24, 180, 53, 0);
